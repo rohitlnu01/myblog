@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<petServices>
+    <grooming>
+        <service>Grooming Service 1</service>
+        <service>Grooming Service 2</service>
+    </grooming>
+    <petsHotel>
+        <information>Information about Pets Hotel goes here.</information>
+    </petsHotel>
+    <petDayCamp>
+        <camp1>Information about Pet Day Camp 1 goes here.</camp1>
+        <camp2>Information about Pet Day Camp 2 goes here.</camp2>
+    </petDayCamp>
+</petServices>

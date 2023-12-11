@@ -1,0 +1,12 @@
+{
+    "petServices": {
+        "grooming": ["Grooming Service 1", "Grooming Service 2"],
+        "petsHotel": {
+            "information": "Information about Pets Hotel goes here."
+        },
+        "petDayCamp": {
+            "camp1": "Information about Pet Day Camp 1 goes here.",
+            "camp2": "Information about Pet Day Camp 2 goes here."
+        }
+    }
+}

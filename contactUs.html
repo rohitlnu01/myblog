@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Pawesome Blog</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+            <li><a href="petServices.html">Pet Services</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="contact-content">
+            <p>Email address: petvalu@meownpawesome.com</p>
+            <p>Mailing address: 2325 50 Ave, Red Deer, AB T4R 1L2</p>
+            <p>Phone number: (+1) 589-323-3125</p>
+            <div id="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19544.892255813837!2d-113.85103032568362!3d52.24135779999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537456bee6047f85%3A0x1948ee7a90a1561b!2sPet%20Valu!5e0!3m2!1sen!2sca!4v1702264145810!5m2!1sen!2sca"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <a href="index.html"><button>Back</button></a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Pawesome Blog</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            var mapOptions = {
+                center: { lat: 37.7749, lng: -122.4194 },
+                zoom: 15, // Adjust the zoom level as needed
+            };
+            var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+        }
+    </script>
+</body>
+
+</html>
